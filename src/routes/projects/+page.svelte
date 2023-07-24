@@ -1,6 +1,11 @@
+<script lang="ts">
+	import closeUp from '$lib/images/closeUp.jpg';
+</script>
+
 <svelte:head>
 	<title>Yotam's Projects</title>
-	<meta name="description" content="Previus Projects" />
+	<meta name="description" content="My Previus Projects" />
+	<meta property="og:image" content={closeUp} />
 </svelte:head>
 
 <div class="text-column">

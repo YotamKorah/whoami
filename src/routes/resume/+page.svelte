@@ -1,10 +1,12 @@
 <script lang="ts">
 	import resume from '$lib/documents/resume.pdf';
+	import closeUp from '$lib/images/closeUp.jpg';
 </script>
 
 <svelte:head>
 	<title>Yotam's Resume</title>
-	<meta name="description" content="Updated Resume" />
+	<meta name="description" content="My Updated Resume" />
+	<meta property="og:image" content={closeUp} />
 </svelte:head>
 
 <div class="text-column">

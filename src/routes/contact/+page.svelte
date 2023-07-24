@@ -1,17 +1,19 @@
 <script lang="ts">
+	import closeUp from '$lib/images/closeUp.jpg';
 	export let data;
 </script>
 
 <svelte:head>
 	<title>Yotam's Projects</title>
-	<meta name="description" content="Previus Projects" />
+	<meta name="description" content="My Contact Information" />
+	<meta property="og:image" content={closeUp} />
 </svelte:head>
 
 <div class="text-column">
 	<h1>Get In Touch</h1>
 
 	<p class="text-center m-2 text-lg">
-		If you feel i might be the right person for your team, feel free to contact me.
+		If you feel I might be the right person for your team, feel free to contact me.
 	</p>
 	<br />
 

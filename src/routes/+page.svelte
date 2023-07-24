@@ -1,5 +1,6 @@
 <script>
 	import mediumShot from '$lib/images/mediumShot.jpg';
+	import closeUp from '$lib/images/closeUp.jpg';
 	import Skills from './Skills.svelte';
 
 	/** @type {import('./$types').PageData} */
@@ -8,7 +9,12 @@
 
 <svelte:head>
 	<title>Yotam Korah</title>
-	<meta name="description" content="Yotam Korah Page" />
+	<meta
+		name="description"
+		content="Experienced DevOps Engineer skilled in Python, React, Ansible, Kubernetes, Azure DevOps, and more.
+			A graduate of the IDF's School of computer science."
+	/>
+	<meta property="og:image" content={closeUp} />
 </svelte:head>
 
 <h1 class="w-full mb-3">About Myself</h1>
