@@ -10,7 +10,7 @@
 <div class="text-column">
 	<h1>Everything In One Place</h1>
 
-	<iframe title="Yotam's Resume" src={resume} class="h-96 w-10/12 m-auto" allowfullscreen >
+	<iframe title="Yotam's Resume" src={resume} class="h-96 w-10/12 m-auto" allowfullscreen>
 		<p style="font-size: 110%;">
 			<em
 				><strong>ERROR: </strong>
