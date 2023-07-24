@@ -1,5 +1,6 @@
 <script>
 	import mediumShot from '$lib/images/mediumShot.jpg';
+	import Skills from './Skills.svelte';
 
 	/** @type {import('./$types').PageData} */
     export let data;
@@ -23,11 +24,7 @@
 	</p>
 </section>
 <br/>
-<section class="w-6/12">
-	<h2 class="w-full mb-3 text-lg text-center">My Skills</h2>
-	<ul class="list-disc">
-		<li>Python, Typescript and Java Development</li>
-		<li>Kubernetes administration</li>
-		<li>...</li>
-	</ul>
+<section class="w-full mb-6">
+	<h1 class="w-full mb-3 text-center">My Skills</h1>
+	<Skills />
 </section>
