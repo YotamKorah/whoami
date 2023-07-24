@@ -14,5 +14,5 @@ export interface Project {
 }
 
 export interface PageData {
-    projects: Project[];
+	projects: Project[];
 }
