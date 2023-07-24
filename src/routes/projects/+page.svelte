@@ -20,7 +20,7 @@
 	{#each data.projects as project}
 		<Card
 			href={project.url}
-			class="bg-light-primary dark:bg-dark-secondary border-2 border-light-secondary dark:border-dark-accent rounded-lg m-5 p-5 text-gray-800 dark:text-gray-800"
+			class="bg-light-primary dark:bg-dark-secondary hover:bg-blue-300 hover:dark:bg-purple-300 border-2 border-light-secondary dark:border-dark-accent rounded-lg m-5 p-5 text-gray-800 dark:text-gray-800"
 			size="xl"
 		>
 			<div class="flex flex-row">
