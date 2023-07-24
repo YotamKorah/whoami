@@ -13,7 +13,7 @@ export const load = (async () => {
 				const { data } = await axios.get(
 					`https://api.github.com/repos/${GITHUB}/${project.name}/contents/.desc.txt`
 				);
-				description = data?.content;
+				description = Buffer.from(data.content, 'base64').toString();
 			} catch (e) {
 				shouldDisplay = false;
 			}
