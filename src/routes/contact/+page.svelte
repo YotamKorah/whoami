@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Yotam's Projects</title>
+	<title>Yotam's Contact Information</title>
 	<meta name="description" content="My Contact Information" />
 	<meta property="og:image" content={closeUp} />
 </svelte:head>
